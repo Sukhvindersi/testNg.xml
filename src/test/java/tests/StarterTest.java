@@ -24,23 +24,6 @@ public class StarterTest {
 		
 	}
 	
-//	@Test
-//	public void testOneFirefox() {
-//		driver=new FirefoxDriver();
-//		driver.get("https://www.google.com/");
-//		String abc="abc";
-//		String xyz="abc";
-//		softassert.assertEquals(abc, xyz);
-//	}
-//	@Test()
-//	public void testOneEdge() {
-//		driver=new EdgeDriver();
-//		driver.get("https://www.google.com/");
-//		String pqr="xyz";
-//		String mnp="xyz";
-//		softassert.assertEquals(pqr, mnp);
-//	}
-	
 	@Test(testName="firefoxBrowser", timeOut=10000)
 	@Parameters("browser")
 	public void dynamicBrowser(String browser) throws InterruptedException {
